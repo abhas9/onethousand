@@ -3,7 +3,7 @@ import numeral from "numeral";
 if (numeral.locale() !== "en-spaces") {
   numeral.register("locale", "en-spaces", {
     delimiters: {
-      thousands: " ",
+      thousands: ",",
       decimal: ".",
     },
     abbreviations: {
@@ -25,7 +25,7 @@ if (numeral.locale() !== "en-spaces") {
         : "th";
     },
     currency: {
-      symbol: "$",
+      symbol: "₹",
     },
   });
   numeral.locale("en-spaces");
