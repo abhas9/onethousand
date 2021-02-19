@@ -40,7 +40,7 @@ export const Card: React.FC<CardProps> = ({
       <div className="flex items-center justify-center">
         <div className="relative flex flex-col items-center justify-center max-w-prose h-auto space-y-6 overflow-hidden text-left text-white rounded-lg p-8 md:p-10 pt-9 md:pt-11 bg-gradient-to-br from-blue-500 via-indigo-500 to-purple-600">
           <h2 className="z-10 w-full text-4xl sm:text-5xl md:text-7xl font-black -mb-4 text-left text-white whitespace-nowrap">
-            ${formattedTotal}
+            ₹{formattedTotal}
           </h2>
           <div className="z-10 space-y-2">
             <h2 className="z-10 text-lg md:text-2xl text-indigo-100">
