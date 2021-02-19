@@ -10,6 +10,9 @@ export const Hero: React.FC = ({ children }) => {
     <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-16 p-4 md:py-12 lg:py-24">
       <div className="flex flex-col items-start">
         <p className="text-gradient text-center lg:text-left font-extrabold bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 text-4xl sm:text-6xl xl:text-7xl mb-6 block w-full">
+          <Link href="/">
+            <a>Home</a>
+          </Link>
         </p>
         <HeroTitle />
         <SearchInput />
