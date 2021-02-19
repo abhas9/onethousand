@@ -16,28 +16,30 @@ export const Footer: React.FC = () => {
           <span className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center">
             <Icon path={mdiCashMultiple} size="1.2rem" color="white" />
           </span>
-          <span className="ml-3 text-xl">onethousand.in</span>
+          <span className="ml-3 text-xl">Fork of onethousand.in</span>
         </a>
         <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-          © 2021 IPO Brief —
+          Added India Specific stocks to onethousand.in. Thanks 
           <a
-            href="https://twitter.com/ipobrief"
+            href="https://onethousand.in/"
             className="text-gray-600 ml-1"
             rel="noopener noreferrer"
             target="_blank"
           >
             @IPOBrief
           </a>
-        </p>
-        <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+          |
           <a
-            className="ml-3 text-gray-500"
-            href="https://twitter.com/sircon"
+            href="https://www.linkedin.com/in/miguelncorreia/"
+            className="text-gray-600 ml-1"
             rel="noopener noreferrer"
             target="_blank"
           >
-            <Icon path={mdiTwitter} size="1.2rem" />
+            Miguel
           </a>
+        </p>
+        <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+          
 
           <a
             className="ml-3 text-gray-500"
@@ -48,23 +50,9 @@ export const Footer: React.FC = () => {
             <Icon path={mdiGithub} size="1.2rem" />
           </a>
 
-          <a
-            className="ml-3 text-gray-500"
-            href="https://linkedin.com/in/miguelncorreia"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <Icon path={mdiLinkedin} size="1.2rem" />
-          </a>
+          
 
-          <a
-            className="ml-3 text-gray-500"
-            href="https://www.miguelncorreia.com"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <Icon path={mdiWeb} size="1.2rem" />
-          </a>
+          
         </span>
       </div>
     </footer>
