@@ -6,7 +6,6 @@ import "nprogress/nprogress.css";
 import React from "react";
 import { Banner } from "../components/Banner";
 import { Footer } from "../components/Footer";
-import { Newsletter } from "../components/Newsletter";
 import SEO from "../next-seo.config";
 import "../styles/index.css";
 
@@ -20,7 +19,6 @@ function onethousandApp({ Component, pageProps }: AppProps) {
       <DefaultSeo {...SEO} />
       <Banner />
       <Component {...pageProps} />
-      <Newsletter />
       <Footer />
     </>
   );
