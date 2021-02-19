@@ -47,9 +47,9 @@ const HeroTitle: React.FC = () => {
       How much would I have today if I invested{" "}
       <strong className="text-purple-700 whitespace-nowrap">₹10,000</strong> in{" "}
       <strong className="text-purple-700">
-        {(ticker as string).toUpperCase()}
+        {(ticker as string).toUpperCase().split(".")[0]}
       </strong>
-      's IPO?
+      's IPO (or as an early investor)?
     </h1>
   );
 };
