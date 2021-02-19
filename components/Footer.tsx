@@ -13,7 +13,7 @@ export const Footer: React.FC = () => {
           <span className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center">
             <Icon path={mdiCashMultiple} size="1.2rem" color="white" />
           </span>
-          <span className="ml-3 text-xl">Fork of 
+          <span className="ml-3 text-xl">Fork of&nbsp; 
             <a
             href="https://onethousand.in/"
             rel="noopener noreferrer"
@@ -29,7 +29,9 @@ export const Footer: React.FC = () => {
           >
             @IPOBrief
           </a>
+          &nbsp;
           &amp;
+          &nbsp;
           <a
             href="https://www.linkedin.com/in/miguelncorreia/"
             className="text-gray-600 ml-1"
