@@ -36,7 +36,7 @@ const HeroTitle: React.FC = () => {
     return (
       <h1 className="title-font text-3xl sm:text-4xl text-center lg:text-left mb-4 font-medium text-purple-500">
         How much would I have today if I invested{" "}
-        <strong className="text-purple-700 whitespace-nowrap">$1 000</strong> in
+        <strong className="text-purple-700 whitespace-nowrap">₹10,000</strong> in
         a IPO?
       </h1>
     );
@@ -45,7 +45,7 @@ const HeroTitle: React.FC = () => {
   return (
     <h1 className="title-font text-3xl sm:text-4xl text-center lg:text-left mb-4 font-medium text-purple-500">
       How much would I have today if I invested{" "}
-      <strong className="text-purple-700 whitespace-nowrap">$1 000</strong> in{" "}
+      <strong className="text-purple-700 whitespace-nowrap">₹10,000</strong> in{" "}
       <strong className="text-purple-700">
         {(ticker as string).toUpperCase()}
       </strong>

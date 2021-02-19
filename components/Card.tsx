@@ -21,14 +21,14 @@ export const Card: React.FC<CardProps> = ({
   const formattedToday = format(new Date(), "PP");
   const year = format(new Date(openDate), "Y");
 
-  const shares = 1000 / historicalOpen;
+  const shares = 10000 / historicalOpen;
   const formattedShares = formatValue(shares, "0,0");
   const initialShares = shares / splitsMultiple;
   const formattedInitialShares = formatValue(initialShares, "0");
 
   const total = shares * lastClose;
   const formattedTotal = formatValue(total, "0,0");
-  const percentage = ((total - 1000) / 1000) * 100;
+  const percentage = ((total - 10000) / 10000) * 100;
   const formattedPercentage = formatValue(percentage, "0,0");
 
   const formattedTickerName = `${tickerName}.`.replace("..", ".");
@@ -45,7 +45,7 @@ export const Card: React.FC<CardProps> = ({
           <div className="z-10 space-y-2">
             <h2 className="z-10 text-lg md:text-2xl text-indigo-100">
               is what you would have made if you had invested{" "}
-              <strong className="text-white whitespace-nowrap">$1 000</strong>{" "}
+              <strong className="text-white whitespace-nowrap">₹10,000</strong>{" "}
               in <strong className="text-white">{formattedTickerName}</strong>{" "}
               stocks back in{" "}
               <strong className="text-white">{formattedDate}</strong>.
@@ -59,7 +59,7 @@ export const Card: React.FC<CardProps> = ({
           </div>
           <div className="container z-10 mx-auto">
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-              <SmallCard result="$1 000" label={formattedDate} />
+              <SmallCard result="₹10,000" label={formattedDate} />
               <SmallCard result={`$${formattedTotal}`} label={formattedToday} />
               <SmallCard
                 result={`${formattedPercentage}%`}

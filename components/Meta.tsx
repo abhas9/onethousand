@@ -18,8 +18,8 @@ export const Meta: React.FC<MetaProps> = ({ ticker, company }) => {
   company = company || (ticker as string);
 
   const url = `${config.url}${asPath}`;
-  const title = `How much is $1000 in ${ticker}'s IPO worth today?`;
-  const description = `If you had invested 1000 dollars when ${company} went public you would have today...`;
+  const title = `How much is ₹10,000 in ${ticker}'s IPO worth today?`;
+  const description = `If you had invested ₹10,000 when ${company} went public you would have today...`;
   const cover = `${config.url}/api/poster/${ticker}`;
 
   return (

@@ -34,10 +34,10 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   context.fillStyle = "#fff";
 
   if (ticker === "undefined" || ticker === "ipobrief") {
-    context.fillText("How much is $1000", 600, 300);
+    context.fillText("How much is ₹10,000", 600, 300);
     context.fillText("of an IPO worth today?", 600, 370);
   } else {
-    context.fillText("How much is $1000 in", 600, 300);
+    context.fillText("How much is ₹10,000 in", 600, 300);
     context.fillText(`${formattedTicker}'s IPO worth today?`, 600, 370);
   }
 

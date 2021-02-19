@@ -3,15 +3,15 @@ import config from "./utils/config";
 
 const SEO: DefaultSeoProps = {
   canonical: config.url,
-  title: "How much would I have today if I invested $1 000 in a IPO?",
+  title: "How much would I have today if I invested ₹10,000 in a IPO?",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: config.url,
-    site_name: "onethousand.in",
-    title: "How much would I have today if I invested $1000 in a IPO?",
+    site_name: "onethousand-eta.vercel.app",
+    title: "How much would I have today if I invested ₹10,000 in a IPO?",
     description:
-      "If you had invested 1000 dollars when a company went public, how much would you have today?",
+      "If you had invested ₹10,000 when a company went public, how much would you have today?",
     images: [{ url: `${config.url}/api/poster/ipobrief` }],
   },
   twitter: {
