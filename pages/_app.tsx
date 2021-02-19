@@ -4,7 +4,6 @@ import Router from "next/router";
 import NProgress from "nprogress";
 import "nprogress/nprogress.css";
 import React from "react";
-import { Banner } from "../components/Banner";
 import { Footer } from "../components/Footer";
 import SEO from "../next-seo.config";
 import "../styles/index.css";
@@ -17,7 +16,6 @@ function onethousandApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <DefaultSeo {...SEO} />
-      <Banner />
       <Component {...pageProps} />
       <Footer />
     </>
