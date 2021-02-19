@@ -14,14 +14,14 @@ export const CardFooter: React.FC<CardFooterProps> = ({ ticker = "" }) => {
   return (
     <>
       <p className="text-white">
-        Created by the{" "}
+        Forked from the{" "}
         <a
-          href="https://ipobrief.email/?utm_source=onethousand&utm_medium=card&utm_campaign=learn_more"
+          href="https://onethousand.in/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:underline font-bold"
         >
-          IPO Brief
+          IPO Brief's onethousand.in
         </a>
         .
       </p>
