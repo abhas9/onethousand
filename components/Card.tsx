@@ -60,7 +60,7 @@ export const Card: React.FC<CardProps> = ({
           <div className="container z-10 mx-auto">
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
               <SmallCard result="₹10,000" label={formattedDate} />
-              <SmallCard result={`$${formattedTotal}`} label={formattedToday} />
+              <SmallCard result={`₹${formattedTotal}`} label={formattedToday} />
               <SmallCard
                 result={`${formattedPercentage}%`}
                 label="Gains"
