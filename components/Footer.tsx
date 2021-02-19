@@ -1,9 +1,6 @@
 import {
   mdiCashMultiple,
-  mdiGithub,
-  mdiLinkedin,
-  mdiTwitter,
-  mdiWeb,
+  mdiGithub
 } from "@mdi/js";
 import Icon from "@mdi/react";
 import React from "react";
